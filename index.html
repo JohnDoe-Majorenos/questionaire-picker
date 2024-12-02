@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Random Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LINUX BASIC COMMANDS</h1>
+        <h2>Questionnaire Random Picker</h2>
+        <button id="pickButton">Pick a Question</button>
+        <p class="para" id="questionDisplay"></p>
+        <div class="timer-buttons">
+            <button class="timer-btn" data-time="20">30 Seconds</button>
+            <button class="timer-btn" data-time="60">1 Minute</button>
+            <button class="timer-btn" data-time="180">3 Minutes</button>
+        </div>
+        <p class="TDis" id="timerDisplay"></p>
+        <p id="timesUpMessage" style="display: none;">Times Up!
+    </div>
+    <audio id="beep" src="sounds/alert-sound-87478.mp3" preload="auto"></audio>
+    <audio id="alarm" src="sounds/ireland-eas-alarm-264351.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
